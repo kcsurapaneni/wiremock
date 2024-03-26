@@ -1,1 +1,7 @@
-spring.application.name=wiremock
+spring:
+  application:
+    name: wiremock
+
+url:
+  jsonplaceholder: https://jsonplaceholder.typicode.com/
+
