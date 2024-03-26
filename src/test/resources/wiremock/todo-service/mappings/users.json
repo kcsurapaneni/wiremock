@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/todos"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "userId": 1,
+        "id": 1,
+        "title": "first",
+        "completed": true
+      },
+      {
+        "userId": 1,
+        "id": 2,
+        "title": "second",
+        "completed": false
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
